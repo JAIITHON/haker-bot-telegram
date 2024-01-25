@@ -1,0 +1,45 @@
+{
+    "name": "PrivaPactbots",
+    "description": "ميزات بوت لا مثيل لها كنقل نقاط من حساب بواسطة ترمكس فقط",
+    "logo": "",
+    "keywords": [
+
+    ],
+    "website": "",
+    "success_url": "https://telegram.me/Source_Ze",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "توكن البوت من @botfather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "ايبي هاش لك",
+            "value": "6d99cb2b60a2c519fc1f99bd19565730"
+        },
+        "APP_ID": {
+            "description": "ايبي ايدي لك",
+            "value": "25281175"
+        },
+        "DEVELOPER_ID": {
+            "description": "ايدي المطور ",
+            "value": "6581896306"
+        },
+        "DEVELOPER_USER": {
+            "description": "يوزر قناة المطور او يوزر المطور",
+            "value": "ELHYBA"
+        }
+        
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "eco"
+        }
+    }
+}

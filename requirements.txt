@@ -1,0 +1,5 @@
+telethon
+requests
+pillow
+flask
+flask_restful
